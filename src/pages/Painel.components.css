@@ -1,0 +1,19 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://i.imgur.com/qK2ebPH.jpeg') center/cover no-repeat;
+  }
+  
+  .painel-glass-effect {
+    background: rgba(255, 255, 255, 0.274); /* Cor do efeito de vidro */
+    backdrop-filter: blur(8px); /* Desfoque para criar o efeito de vidro */
+    border-radius: 0px;
+    padding: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 80%;
+  }
+  
+  h2, input, button {
+    margin: 10px 0;
+  }
